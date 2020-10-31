@@ -23,6 +23,14 @@ The most interesting stuff in the /opt directory:
 - /opt/my-apps/doublerandom
 - /opt/my-apps/RFC1751-encoding-decoding-master
 
+## What could go wrong?
+
+If you make sure to seed the PRNG with randomness from the sound input, mouse movements, etc. before using anything crypto-related - maybe it will be ok.
+
+There is a clipboard manager enabled by default:
+
+![screenshot of the clipboard manager](imgages/clipboard-manager-hmmm.png?raw=true "Clipboard manger. What could go wrong?")
+
 
 ## Download
 - IPFS: QmNU2dWgDzre7yd988jRLd8FnfSSqxTg2kEk9JFHFEmDsi
