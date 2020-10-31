@@ -31,7 +31,7 @@ There is a clipboard manager enabled by default:
 
 ![screenshot of the clipboard manager](images/clipboard-manager-hmmm.png?raw=true "Clipboard manger. What could go wrong?")
 
-If you run the OS from a hard drive - bad news. Your secrets are in cleartext (unless you use full disk encryption). And it's difficult to remove it, especially when the hard drive's firmware decided to mark the area as corrupted - it will not be deleted or overwritten with the usual disk wiping tools.
+If you run the OS from a hard drive - bad news. Your secrets you are copy/pasting are in cleartext on the hard drive (unless you use full disk encryption, including encrypted swap). And it's difficult to remove it, especially when the hard drive's firmware decided to mark the area as corrupted - it will not be deleted or overwritten with the usual disk wiping tools.
 
 Since you are using the OS from an optical disk on a read-only optical device (not using it on a CD/DVD burner?) and there is no hard drive - nothing could go wrong? Or maybe not? If we asume there is no malware hidden in the BIOS/UEFI, inside the [processor](https://www.google.com/search?channel=fs&client=ubuntu&q=%22Intel+Management+Engine+and+its+applications+are+a+backdoor+with+total+access+to+and+control+over+the+rest+of+the+PC.%22)...
 
