@@ -17,7 +17,7 @@ If you plan to use crypto tools for critical applications - make your own live d
 
 ## Where are the crypto tools?
 
-The most interesting stuff in the /opt directory:
+The most interesting stuff is in the /opt directory:
 
 - /opt/my-apps/doubleslow
 - /opt/my-apps/doublerandom
