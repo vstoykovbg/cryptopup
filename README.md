@@ -5,6 +5,8 @@ The best way to use this distro is to burn it on a DVD or CD and run it on an ai
 
 If you want to transfer data to/from the computer you can use [RFC1751 encoding/decoding](https://github.com/vstoykovbg/RFC1751-encoding-decoding). If you want to print data - use a pencil.
 
+Please be aware that I am a very trustworthy pseudonymous stranger on the Internet, but nevertheless I can't guarantee that there is no malware on this ISO. This distro is based on Puppy Linux (bionicpup64-8.0), which is based on Ubuntu, which is based on Debian... What could go wrong? 
+
 If you plan to use crypto tools for critical applications - make your own live distro, do not trust a random stranger on the Internet to make it for you. This type of software (wallet generators, BIP39 tools, etc) are magnet for criminals. 
 
 - [Looking for BIP39 tools? Beware of phishing!](https://rootvideochannel.blogspot.com/2020/10/looking-for-bip39-tools-beware-of.html)
@@ -12,8 +14,6 @@ If you plan to use crypto tools for critical applications - make your own live d
 - [Example of "phishing" Bitcoin wallet generator - walletgenerator.org](https://rootvideochannel.blogspot.com/2017/12/example-of-phishing-bitcoin-wallet.html)
 - [Suspicious website cryptocurrencysecurityadvice.com - probably hosting malware](https://rootvideochannel.blogspot.com/2017/12/suspicious-website-cryptocurrencysecuri.html)
 - [ Stealing Bitcoin "is nothing illegal, but morally wrong" - WTF?](https://rootvideochannel.blogspot.com/2017/12/stealing-bitcoin-is-nothing-illegal-but.html)
-
-Please be aware that I can't guarantee that there is no malware on this ISO. This distro is based on Puppy Linux (bionicpup64-8.0), which is based on Ubuntu, which is based on Debian... What could go wrong? 
 
 ## Download
 - IPFS: QmNU2dWgDzre7yd988jRLd8FnfSSqxTg2kEk9JFHFEmDsi
