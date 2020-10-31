@@ -35,6 +35,8 @@ If you run the OS from a hard drive - bad news. Your secrets you are copy/pastin
 
 Since you are using the OS from an optical disk on a read-only optical device (not using it on a CD/DVD burner?) and there is no hard drive - nothing could go wrong? Or maybe not? If we asume there is no malware hidden in the BIOS/UEFI, inside the [processor](https://www.google.com/search?channel=fs&client=ubuntu&q=%22Intel+Management+Engine+and+its+applications+are+a+backdoor+with+total+access+to+and+control+over+the+rest+of+the+PC.%22)...
 
+Please read the code of the randomness mixers before using them. Be skeptical to any BIP39 mnemonic genrator. Does it produce really random output? Or it's rigged in a way someone can abuse?
+
 ## Download
 - IPFS: QmNU2dWgDzre7yd988jRLd8FnfSSqxTg2kEk9JFHFEmDsi
 - BitTorrent: magnet:?xt=urn:btih:dfc66c676fcb073da12a34091e4d01bed7d267b9&dn=bionicpup64-8.0-with-crypto-tools
