@@ -29,8 +29,8 @@ If you make sure to seed the PRNG with randomness from the sound input, mouse mo
 
 There is a clipboard manager enabled by default:
 
-![screenshot of the clipboard manager](imgages/clipboard-manager-hmmm.png?raw=true "Clipboard manger. What could go wrong?")
-
+![screenshot of the clipboard manager](images/clipboard-manager-hmmm.png?raw=true "Clipboard manger. What could go wrong?")
+https://raw.githubusercontent.com/vstoykovbg/cryptopup/main/images/clipboard-manager-hmmm.png
 
 ## Download
 - IPFS: QmNU2dWgDzre7yd988jRLd8FnfSSqxTg2kEk9JFHFEmDsi
