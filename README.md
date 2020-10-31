@@ -1,7 +1,7 @@
 # Cryptopup
 Modified bionicpup64-8.0 with added crypto tools: [doubleslow](https://github.com/vstoykovbg/doubleslow), [doublerandom](https://github.com/vstoykovbg/doublerandom), [RFC1751-encoding-decoding](https://github.com/vstoykovbg/RFC1751-encoding-decoding) and others.
 
-The best way to use this distro is to burn it on a DVD or CD and run it on an air-gapped computer without a hard drive, without a network controllers (especially wireless), without USB devices (especially USB memory sticks, printers, scanners, etc). Ideally the computer must contain only the most important components: power supply, motherboard (with integrated video controller and microphone input), RAM, processor, optical drive. And of course monitor, keyboard and mouse. Also it would be good to have a microphone or a noise generator attached to the microphone input. Connecting USB printer may compromise your secirity. Connecting the computer to other computer after using if for sensitive cryptographic stuff is not recommended.
+The best way to use this distro is to burn it on a DVD or CD and run it on an air-gapped computer without a hard drive, without a network controllers (especially wireless), without USB devices (especially USB memory sticks, printers, scanners, etc). Ideally the computer must contain only the most important components: power supply, motherboard (with integrated video controller and microphone input), RAM, processor, optical drive. And of course monitor, keyboard and mouse. Also it would be good to have a microphone or a noise generator attached to the microphone input. Connecting USB printer may compromise your security. Connecting the computer to other computer after using if for sensitive cryptographic stuff is not recommended.
 
 If you want to transfer data to/from the computer you can use [RFC1751 encoding/decoding](https://github.com/vstoykovbg/RFC1751-encoding-decoding). If you want to print data - use a pencil.
 
@@ -33,9 +33,11 @@ There is a clipboard manager enabled by default:
 
 If you run the OS from a hard drive - bad news. Your secrets you are copy/pasting are in cleartext on the hard drive (unless you use full disk encryption, including encrypted swap). And it's difficult to remove it, especially when the hard drive's firmware decided to mark the area as corrupted - it will not be deleted or overwritten with the usual disk wiping tools.
 
-Since you are using the OS from an optical disk on a read-only optical device (not using it on a CD/DVD burner?) and there is no hard drive - nothing could go wrong? Or maybe not? If we asume there is no malware hidden in the BIOS/UEFI, inside the [processor](https://www.google.com/search?channel=fs&client=ubuntu&q=%22Intel+Management+Engine+and+its+applications+are+a+backdoor+with+total+access+to+and+control+over+the+rest+of+the+PC.%22)...
+Since you are using the OS from an optical disk on a read-only optical device (not using it on a CD/DVD burner?) and there is no hard drive - nothing could go wrong? Or maybe not? If we assume there is no malware hidden in the BIOS/UEFI, inside the [processor](https://www.google.com/search?channel=fs&client=ubuntu&q=%22Intel+Management+Engine+and+its+applications+are+a+backdoor+with+total+access+to+and+control+over+the+rest+of+the+PC.%22)...
 
-Please read the code of the randomness mixers before using them. Be skeptical to any BIP39 mnemonic genrator. Does it produce really random output? Or it's rigged in a way someone can abuse?
+Please read the code of the randomness mixers before using them. Be skeptical to any BIP39 mnemonic generator, wallet generator, etc. Does it produce really random output? Or it's rigged in a way someone can abuse? Does it transmit the generated seeds and keys to the mothership?
+
+For ideas how things could go wrong - read the README.md from the [doubleslow](https://github.com/vstoykovbg/doubleslow) project.
 
 ## Download
 - IPFS: QmNU2dWgDzre7yd988jRLd8FnfSSqxTg2kEk9JFHFEmDsi
