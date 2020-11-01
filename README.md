@@ -39,6 +39,14 @@ Please read the code of the randomness mixers before using them. Be skeptical to
 
 For ideas how things could go wrong - read the README.md from the [doubleslow](https://github.com/vstoykovbg/doubleslow) project.
 
+## What is changed?
+
+Mostly my changes are installing dependencies of the crypto-tools I added in the /opt directory. I had difficulties with compiling software on the Puppy, so I compilled the software on my Ubuntu system (`$ make`, `$ python3 setup.py build`) and only executed the command `# make install` (and it's pythonic equivalent `# python3 setup.py install`) on the Puppy system. This way I installed VeraCrypt and the Python modules `pynput` and `argon2`.
+
+I added a new entry in the `isolinux.cfg` menu "without graphical desktop, do not copy in RAM". It's useful on old computers with low RAM.
+
+I made changes in the keyboard settings in the text mode (Linux console) - with Ctrl+Shift a Bulgarian phonetic layout can be selected. The default is US layout.
+
 ## Download
 - IPFS: QmNU2dWgDzre7yd988jRLd8FnfSSqxTg2kEk9JFHFEmDsi
 - BitTorrent: magnet:?xt=urn:btih:dfc66c676fcb073da12a34091e4d01bed7d267b9&dn=bionicpup64-8.0-with-crypto-tools
