@@ -2,11 +2,17 @@
 
 Cryptopup is a live Linux distribution that fits on a CD (it's only 531MiB), but also can be burned on a DVD or recorded on a USB flash drive. It contains useful crypto tools: [Doubleslow](https://github.com/vstoykovbg/doubleslow), [Doublerandom](https://github.com/vstoykovbg/doublerandom), [RFC1751-encoding-decoding](https://github.com/vstoykovbg/RFC1751-encoding-decoding), [Mnemonic hashes](https://github.com/vstoykovbg/mnemonic-hashes), Electrum, Bitaddress, [BIP39 tool](https://github.com/iancoleman/bip39) and others.
 
+When text mode is selected (with "do not copy in RAM") it requires very low RAM (assuming you will use frugal settings on Doubleslow).
+
+![Cryptopup boot screen](images/cryptopup_11.png?raw=true "Cryptopup boot screen")
+
 Cryptopup is based on BionicPup64 8.0.
 
 The best way to use this distro is to burn it on a DVD or CD and run it on an air-gapped computer without a hard drive, without wireless network controllers, without USB devices (especially USB memory sticks, printers, scanners, etc). Ideally the computer must contain only the most important components: power supply, motherboard (with integrated video controller and microphone input), RAM, processor, optical drive. And of course monitor, keyboard and mouse. Also it would be good to have a microphone or a noise generator attached to the microphone input. Connecting an USB printer may compromise your security. Connecting the computer to other computer after using if for sensitive cryptographic stuff is not recommended (what if there is a crypto keys stealing malware hidden inside the BIOS/UEFI?).
 
 If you want to transfer data to/from the computer you can use [RFC1751 encoding/decoding](https://github.com/vstoykovbg/RFC1751-encoding-decoding). If you want to print data - use a pencil.
+
+![Cryptopup with Veracrypt, mouse-seed-generator.py, mnemonic-blake.py ](images/cryptopup_11.png?raw=true "Cryptopup with Veracrypt, mouse-seed-generator.py, mnemonic-blake.py")
 
 Please be aware that I am a very trustworthy pseudonymous stranger on the Internet, but nevertheless I can't guarantee that there is no malware on this ISO. If we assume that there is no malware in Ubuntu and BionicPup64, it's very propable that there is no malware in Cryptopup. 
 
