@@ -6,6 +6,14 @@ When text mode is selected (with "do not copy in RAM") it requires very low RAM 
 
 ![Cryptopup boot screen](images/cryptopup_11.png?raw=true "Cryptopup boot screen")
 
+In the following example it works with only 192MB RAM (in Linux console mode, selected as shown in the above screenshot).
+
+The salt is `my horse eats batteries`, the password is `123`:
+
+![My horse eats batteries](images/cryptopup_11.png?raw=true "My horse eats batteries and works with only 192MB RAM")
+
+![The result of the Doubleslow key stretching](images/cryptopup_11.png?raw=true "The result of the Doubleslow key stretching")
+
 Cryptopup is based on BionicPup64 8.0.
 
 The best way to use this distro is to burn it on a DVD or CD and run it on an air-gapped computer without a hard drive, without wireless network controllers, without USB devices (especially USB memory sticks, printers, scanners, etc). Ideally the computer must contain only the most important components: power supply, motherboard (with integrated video controller and microphone input), RAM, processor, optical drive. And of course monitor, keyboard and mouse. Also it would be good to have a microphone or a noise generator attached to the microphone input. Connecting an USB printer may compromise your security. Connecting the computer to other computer after using if for sensitive cryptographic stuff is not recommended (what if there is a crypto keys stealing malware hidden inside the BIOS/UEFI?).
