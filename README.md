@@ -1,11 +1,14 @@
 # Cryptopup
-Modified bionicpup64-8.0 with added crypto tools: [doubleslow](https://github.com/vstoykovbg/doubleslow), [doublerandom](https://github.com/vstoykovbg/doublerandom), [RFC1751-encoding-decoding](https://github.com/vstoykovbg/RFC1751-encoding-decoding) and others.
+
+Cryptopup is a live Linux distribution that fits on a CD (it's only 531MiB), but also can be burned on a DVD or recorded on a USB flash drive. It contains useful crypto tools: [Doubleslow](https://github.com/vstoykovbg/doubleslow), [Doublerandom](https://github.com/vstoykovbg/doublerandom), [RFC1751-encoding-decoding](https://github.com/vstoykovbg/RFC1751-encoding-decoding), [Mnemonic hashes](https://github.com/vstoykovbg/mnemonic-hashes), Electrum, Bitaddress, [BIP39 tool](https://github.com/iancoleman/bip39) and others.
+
+Cryptopup is based on BionicPup64 8.0.
 
 The best way to use this distro is to burn it on a DVD or CD and run it on an air-gapped computer without a hard drive, without wireless network controllers, without USB devices (especially USB memory sticks, printers, scanners, etc). Ideally the computer must contain only the most important components: power supply, motherboard (with integrated video controller and microphone input), RAM, processor, optical drive. And of course monitor, keyboard and mouse. Also it would be good to have a microphone or a noise generator attached to the microphone input. Connecting an USB printer may compromise your security. Connecting the computer to other computer after using if for sensitive cryptographic stuff is not recommended (what if there is a crypto keys stealing malware hidden inside the BIOS/UEFI?).
 
 If you want to transfer data to/from the computer you can use [RFC1751 encoding/decoding](https://github.com/vstoykovbg/RFC1751-encoding-decoding). If you want to print data - use a pencil.
 
-Please be aware that I am a very trustworthy pseudonymous stranger on the Internet, but nevertheless I can't guarantee that there is no malware on this ISO. This distro is based on Puppy Linux (bionicpup64-8.0), which is based on Ubuntu, which is based on Debian... What could go wrong? 
+Please be aware that I am a very trustworthy pseudonymous stranger on the Internet, but nevertheless I can't guarantee that there is no malware on this ISO. If we assume that there is no malware in Ubuntu and BionicPup64, it's very propable that there is no malware in Cryptopup. 
 
 If you plan to use crypto tools for critical applications - make your own live distro, do not trust a random stranger on the Internet to make it for you. This type of software (wallet generators, BIP39 tools, etc) is a magnet for criminals.
 
@@ -22,6 +25,8 @@ The most interesting stuff is in the /opt directory:
 - /opt/my-apps/doubleslow
 - /opt/my-apps/doublerandom
 - /opt/my-apps/RFC1751-encoding-decoding-master
+- /opt/my-apps/mnemonic-hashes
+...
 
 ## What could go wrong?
 
@@ -41,20 +46,28 @@ For ideas how things could go wrong - read the README.md from the [doubleslow](h
 
 ## What is changed?
 
-Mostly my changes are installing dependencies of the crypto-tools I added in the /opt directory. I had difficulties with compiling software on the Puppy, so I compilled the software on my Ubuntu system (`$ make`, `$ python3 setup.py build`) and only executed the command `# make install` (and it's pythonic equivalent `# python3 setup.py install`) on the Puppy system. This way I installed VeraCrypt and the Python modules `pynput` and `argon2`.
+Mostly my changes are installing dependencies of the crypto-tools I added in the /opt directory. I had difficulties with compiling software on the Puppy, so I compilled the software on my Ubuntu system (`$ make`, `$ python3 setup.py build`) and then installed it (i.e. `# python3 setup.py install`) on the Puppy system. This way I installed VeraCrypt and the Python modules `pynput` and `argon2`.
 
 I added a new entry in the `isolinux.cfg` menu "without graphical desktop, do not copy in RAM". It's useful on old computers with low RAM.
 
 I made changes in the keyboard settings in the text mode (Linux console) - with Ctrl+Shift a Bulgarian phonetic layout can be selected. The default is US layout.
 
-## Download
-- IPFS: QmNU2dWgDzre7yd988jRLd8FnfSSqxTg2kEk9JFHFEmDsi
-- BitTorrent: magnet:?xt=urn:btih:dfc66c676fcb073da12a34091e4d01bed7d267b9&dn=bionicpup64-8.0-with-crypto-tools
-- IPFS gateways: [localhost](http://localhost:8080/ipfs/QmNU2dWgDzre7yd988jRLd8FnfSSqxTg2kEk9JFHFEmDsi), [1](https://gateway.pinata.cloud/ipfs/QmNU2dWgDzre7yd988jRLd8FnfSSqxTg2kEk9JFHFEmDsi), [2](https://ninetailed.ninja/ipfs/QmNU2dWgDzre7yd988jRLd8FnfSSqxTg2kEk9JFHFEmDsi), [3](https://cloudflare-ipfs.com/ipfs/QmNU2dWgDzre7yd988jRLd8FnfSSqxTg2kEk9JFHFEmDsi), [4](https://ipfs.io/ipfs/QmNU2dWgDzre7yd988jRLd8FnfSSqxTg2kEk9JFHFEmDsi), [5](https://dweb.link/ipfs/QmNU2dWgDzre7yd988jRLd8FnfSSqxTg2kEk9JFHFEmDsi)
+I did not liked how `xvcbd` beeps when keys are pressed (it's using the system speaker for this) and not showing cyrillic letters when I change the keyboard layout, so I installed `onboard` (Gnome's onscreen keyboard). Virtual keyboards are useful to reduce the risk of keylogging attacks.
+
+Your keyboard or BIOS/UEFI can be infected with a hardware keylogger or a software keylogger.
+
+It's more difficult to steal secrets by recording the mouse movements than by recording the pressed keys on the physical keyboard.
+
+The hypothetical malware can write your secrets on the memory of your USB devices in a way you can't read them, but the attacker can.
+
+## Download Cryptopup 11
+- IPFS: Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM
+- BitTorrent: magnet:?xt=urn:btih:667c4081b98970bf21066978d97ca93ea24cd6ee&dn=cryptopup%5F11
+- IPFS gateways: [localhost](http://localhost:8080/ipfs/Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM), [1](https://gateway.pinata.cloud/ipfs/Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM), [2](https://ninetailed.ninja/ipfs/Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM), [3](https://cloudflare-ipfs.com/ipfs/Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM), [4](https://ipfs.io/ipfs/Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM), [5](https://dweb.link/ipfs/Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM)
 
 Long magnet link (with trackers):
 ```
-magnet:?xt=urn:btih:dfc66c676fcb073da12a34091e4d01bed7d267b9&dn=bionicpup64-8.0-with-crypto-tools&tr=udp%3A%2F%2Fwambo.club%3A1337%2Fannounce&tr=udp%3A%2F%2Ftc.animereactor.ru%3A8082%2Fannounce&tr=udp%3A%2F%2Ftracker.justseed.it%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Fopen.kickasstracker.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=http%3A%2F%2F87.253.152.137%2Fannounce&tr=http%3A%2F%2F91.217.91.21%3A3218%2Fannounce&tr=http%3A%2F%2Fatrack.pow7.com%2Fannounce&tr=http%3A%2F%2Fbt.henbt.com%3A2710%2Fannounce&tr=http%3A%2F%2Fbt.pusacg.org%3A8080%2Fannounce&tr=https%3A%2F%2Ftracker.bt-hash.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=https%3A%2F%2F182.176.139.129%3A6969%2Fannounce&tr=udp%3A%2F%2Fzephir.monocul.us%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.dutchtracking.com%3A80%2Fannounce&tr=https%3A%2F%2Fgrifon.info%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.kicks-ass.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.sktorrent.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker.parrotsec.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.moxing.party%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.ipv6tracker.ru%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce
+magnet:?xt=urn:btih:667c4081b98970bf21066978d97ca93ea24cd6ee&dn=cryptopup%5F11&tr=udp%3A%2F%2Fwambo.club%3A1337%2Fannounce&tr=udp%3A%2F%2Ftc.animereactor.ru%3A8082%2Fannounce&tr=udp%3A%2F%2Ftracker.justseed.it%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Fopen.kickasstracker.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=http%3A%2F%2F87.253.152.137%2Fannounce&tr=http%3A%2F%2F91.217.91.21%3A3218%2Fannounce&tr=http%3A%2F%2Fatrack.pow7.com%2Fannounce&tr=http%3A%2F%2Fbt.henbt.com%3A2710%2Fannounce&tr=http%3A%2F%2Fbt.pusacg.org%3A8080%2Fannounce&tr=https%3A%2F%2Ftracker.bt-hash.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=https%3A%2F%2F182.176.139.129%3A6969%2Fannounce&tr=udp%3A%2F%2Fzephir.monocul.us%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.dutchtracking.com%3A80%2Fannounce&tr=https%3A%2F%2Fgrifon.info%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.kicks-ass.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.sktorrent.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker.parrotsec.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.moxing.party%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.ipv6tracker.ru%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce
 ```
 
 
