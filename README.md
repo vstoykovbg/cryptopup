@@ -50,13 +50,13 @@ There is a clipboard manager enabled by default:
 
 ![screenshot of the clipboard manager](images/clipboard-manager-hmmm.png?raw=true "Clipboard manger. What could go wrong?")
 
-If you run the OS from a hard drive - bad news. Your secrets you are copy/pasting are in cleartext on the hard drive (unless you use full disk encryption, including encrypted swap). And it's difficult to remove it, especially when the hard drive's firmware decided to mark the area as corrupted - it will not be deleted or overwritten with the usual disk wiping tools.
+If you run the OS from a hard drive - bad news. Your secrets you are copy/pasting are in cleartext on the hard drive (unless you use full disk encryption, including encrypted swap). And it's difficult to wipe the secrets, especially when the hard drive's firmware decided to mark the area as corrupted - it will not be deleted or overwritten with the usual disk wiping tools.
 
-Since you are using the OS from an optical disk on a read-only optical device (not using it on a CD/DVD burner?) and there is no hard drive - nothing could go wrong? Or maybe not? If we assume there is no malware hidden in the BIOS/UEFI, inside the [processor](https://www.google.com/search?channel=fs&client=ubuntu&q=%22Intel+Management+Engine+and+its+applications+are+a+backdoor+with+total+access+to+and+control+over+the+rest+of+the+PC.%22)...
+Since you are using the OS from an optical disk on a read-only optical device (not using it on a CD/DVD burner?) and there is no hard drive - nothing could go wrong, right? Or maybe not? If we assume there is no malware hidden in the BIOS/UEFI, inside the [processor](https://www.google.com/search?channel=fs&client=ubuntu&q=%22Intel+Management+Engine+and+its+applications+are+a+backdoor+with+total+access+to+and+control+over+the+rest+of+the+PC.%22)...
 
 Please read the code of the randomness mixers before using them. Be skeptical to any BIP39 mnemonic generator, wallet generator, etc. Does it produce really random output? Or it's rigged in a way someone can abuse? Does it transmit the generated seeds and keys to the mothership?
 
-For ideas how things could go wrong - read the README.md from the [doubleslow](https://github.com/vstoykovbg/doubleslow) project.
+For ideas how things could go wrong - read the README.md from the [Doubleslow](https://github.com/vstoykovbg/doubleslow) project.
 
 ## What is changed?
 
