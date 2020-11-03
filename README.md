@@ -10,7 +10,7 @@ In the following example it works with only 192MB RAM (in Linux console mode, se
 
 ![My horse eats batteries](images/horse_1.png?raw=true "My horse eats batteries and works with only 192MB RAM")
 
-In this example the salt is `my horse eats batteries`, the password is `123`, number of iterations on the first stage is `5`, no second stage. These are very weak settings, do not use it like this.
+In this example the salt is `my horse eats batteries`, the password is `123`, the number of iterations on the first stage is `5`, there is no second stage. These are very weak settings, do not use it like this.
 
 ![The result of the Doubleslow key stretching](images/horse_2.png?raw=true "The result of the Doubleslow key stretching")
 
