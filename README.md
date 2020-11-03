@@ -22,7 +22,7 @@ If you want to transfer data to/from the computer you can use [RFC1751 encoding/
 
 ![Cryptopup with Veracrypt, mouse-seed-generator.py, mnemonic-blake.py ](images/cryptopup_vera.png?raw=true "Cryptopup with Veracrypt, mouse-seed-generator.py, mnemonic-blake.py")
 
-Please be aware that I am a very trustworthy pseudonymous stranger on the Internet, but nevertheless I can't guarantee that there is no malware on this ISO. If we assume that there is no malware in Ubuntu and BionicPup64, it's very propable that there is no malware in Cryptopup. 
+Please be aware that I am a very trustworthy pseudonymous stranger on the Internet, but nevertheless I can't guarantee that there is no malware on this ISO. If we assume that there is no malware in Ubuntu and BionicPup64, it's very probable that there is no malware in Cryptopup. 
 
 If you plan to use crypto tools for critical applications - make your own live distro, do not trust a random stranger on the Internet to make it for you. This type of software (wallet generators, BIP39 tools, etc) is a magnet for criminals.
 
@@ -68,7 +68,7 @@ I made changes in the keyboard settings in the text mode (Linux console) - with 
 
 I did not liked how `xvcbd` beeps when keys are pressed (it's using the system speaker for this) and not showing cyrillic letters when I change the keyboard layout, so I installed `onboard` (Gnome's onscreen keyboard). Virtual keyboards are useful to reduce the risk of keylogging attacks.
 
-Your keyboard or BIOS/UEFI can be infected with a hardware keylogger or a software keylogger.
+Your keyboard or BIOS/UEFI can be infected with a hardware or a software keylogger.
 
 It's more difficult to steal secrets by recording the mouse movements than by recording the pressed keys on the physical keyboard.
 
