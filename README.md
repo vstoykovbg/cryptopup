@@ -10,9 +10,9 @@ In the following example it works with only 192MB RAM (in Linux console mode, se
 
 The salt is `my horse eats batteries`, the password is `123`:
 
-![My horse eats batteries](images/cryptopup_11.png?raw=true "My horse eats batteries and works with only 192MB RAM")
+![My horse eats batteries](images/horse_1.png?raw=true "My horse eats batteries and works with only 192MB RAM")
 
-![The result of the Doubleslow key stretching](images/cryptopup_11.png?raw=true "The result of the Doubleslow key stretching")
+![The result of the Doubleslow key stretching](images/horse_2.png?raw=true "The result of the Doubleslow key stretching")
 
 Cryptopup is based on BionicPup64 8.0.
 
