@@ -12,7 +12,7 @@ The best way to use this distro is to burn it on a DVD or CD and run it on an ai
 
 If you want to transfer data to/from the computer you can use [RFC1751 encoding/decoding](https://github.com/vstoykovbg/RFC1751-encoding-decoding). If you want to print data - use a pencil.
 
-![Cryptopup with Veracrypt, mouse-seed-generator.py, mnemonic-blake.py ](images/cryptopup_11.png?raw=true "Cryptopup with Veracrypt, mouse-seed-generator.py, mnemonic-blake.py")
+![Cryptopup with Veracrypt, mouse-seed-generator.py, mnemonic-blake.py ](images/cryptopup_vera.png?raw=true "Cryptopup with Veracrypt, mouse-seed-generator.py, mnemonic-blake.py")
 
 Please be aware that I am a very trustworthy pseudonymous stranger on the Internet, but nevertheless I can't guarantee that there is no malware on this ISO. If we assume that there is no malware in Ubuntu and BionicPup64, it's very propable that there is no malware in Cryptopup. 
 
