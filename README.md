@@ -60,7 +60,7 @@ For ideas how things could go wrong - read the README.md from the [Doubleslow](h
 
 ## What is changed?
 
-Mostly my changes are installing dependencies of the crypto-tools I added in the /opt directory. I had difficulties with compiling software on the Puppy, so I compilled the software on my Ubuntu system (`$ make`, `$ python3 setup.py build`) and then installed it (i.e. `# python3 setup.py install`) on the Puppy system. This way I installed VeraCrypt and the Python modules `pynput` and `argon2`.
+Mostly my changes are installing dependencies of the crypto-tools I added in the /opt directory. I had difficulties with compiling software on the Puppy, so I compiled the software on my Ubuntu system (`$ make`, `$ python3 setup.py build`) and then installed it (i.e. `# python3 setup.py install`) on the Puppy system. This way I installed VeraCrypt and the Python modules `pynput` and `argon2`.
 
 I added a new entry in the `isolinux.cfg` menu "without graphical desktop, do not copy in RAM". It's useful on old computers with low RAM.
 
@@ -72,7 +72,7 @@ Your keyboard or BIOS/UEFI can be infected with a hardware or a software keylogg
 
 It's more difficult to steal secrets by recording the mouse movements than by recording the pressed keys on the physical keyboard.
 
-The hypothetical malware can write your secrets on the memory of your USB devices in a way you can't read them, but the attacker can.
+The hypothetical malware can write your secrets on the memory of your USB devices in a way you can't read them, but the attacker can. This is why I suggest to avoid USB keyboards (you may accidentally attach the same keyboard on an online computer, and - it's_gone_meme.jpg - if we assume the malware on the online computer cooperate with the malware on the keyboard's controller).
 
 ## Download Cryptopup 11
 - IPFS: Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM
