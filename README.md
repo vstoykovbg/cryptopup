@@ -75,7 +75,7 @@ It's more difficult to steal secrets by recording the mouse movements than by re
 The hypothetical malware can write your secrets on the memory of your USB devices in a way you can't read them, but the attacker can. This is why I suggest to avoid USB keyboards (you may accidentally attach the same keyboard on an online computer, and - it's_gone_meme.jpg - if we assume the malware on the online computer cooperate with the malware on the keyboard's controller).
 
 ## Download Cryptopup 11
-- [https://drive.google.com/drive/folders/1O1AJU895hcuQkCiruNdlWn46rKB4WTOm?usp=sharing]Google Drive]
+- [https://drive.google.com/drive/folders/1O1AJU895hcuQkCiruNdlWn46rKB4WTOm?usp=sharing](Google Drive)
 - IPFS: Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM
 - BitTorrent: magnet:?xt=urn:btih:667c4081b98970bf21066978d97ca93ea24cd6ee&dn=cryptopup%5F11
 - IPFS gateways: [localhost](http://localhost:8080/ipfs/Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM), [1](https://gateway.pinata.cloud/ipfs/Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM), [2](https://ninetailed.ninja/ipfs/Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM), [3](https://cloudflare-ipfs.com/ipfs/Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM), [4](https://ipfs.io/ipfs/Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM), [5](https://dweb.link/ipfs/Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM)
