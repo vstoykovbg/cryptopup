@@ -74,19 +74,12 @@ It's more difficult to steal secrets by recording the mouse movements than by re
 
 The hypothetical malware can write your secrets on the memory of your USB devices in a way you can't read them, but the attacker can. This is why I suggest to avoid USB keyboards (you may accidentally attach the same keyboard on an online computer, and - it's_gone_meme.jpg - if we assume the malware on the online computer cooperate with the malware on the keyboard's controller).
 
-## Download Cryptopup 11
+On Cryptopup 12 I updated `doubleslow` and `Electrum`.
+
+## Download Cryptopup 12
 - [Google Drive](https://drive.google.com/drive/folders/1O1AJU895hcuQkCiruNdlWn46rKB4WTOm?usp=sharing)
-- IPFS: Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM
-- BitTorrent: magnet:?xt=urn:btih:667c4081b98970bf21066978d97ca93ea24cd6ee&dn=cryptopup%5F11
-- IPFS gateways: [localhost](http://localhost:8080/ipfs/Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM), [1](https://gateway.pinata.cloud/ipfs/Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM), [2](https://ninetailed.ninja/ipfs/Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM), [3](https://cloudflare-ipfs.com/ipfs/Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM), [4](https://ipfs.io/ipfs/Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM), [5](https://dweb.link/ipfs/Qmf8JcNDaaiKkunvnE2mfDQCW1qrczKmDtt4ReNvbXDpMM)
-
-Long magnet link (with trackers):
-```
-magnet:?xt=urn:btih:667c4081b98970bf21066978d97ca93ea24cd6ee&dn=cryptopup%5F11&tr=udp%3A%2F%2Fwambo.club%3A1337%2Fannounce&tr=udp%3A%2F%2Ftc.animereactor.ru%3A8082%2Fannounce&tr=udp%3A%2F%2Ftracker.justseed.it%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Fopen.kickasstracker.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=http%3A%2F%2F87.253.152.137%2Fannounce&tr=http%3A%2F%2F91.217.91.21%3A3218%2Fannounce&tr=http%3A%2F%2Fatrack.pow7.com%2Fannounce&tr=http%3A%2F%2Fbt.henbt.com%3A2710%2Fannounce&tr=http%3A%2F%2Fbt.pusacg.org%3A8080%2Fannounce&tr=https%3A%2F%2Ftracker.bt-hash.com%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=https%3A%2F%2F182.176.139.129%3A6969%2Fannounce&tr=udp%3A%2F%2Fzephir.monocul.us%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.dutchtracking.com%3A80%2Fannounce&tr=https%3A%2F%2Fgrifon.info%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.kicks-ass.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.sktorrent.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker.parrotsec.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.moxing.party%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.ipv6tracker.ru%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce
-```
-## Known bugs
-
-One of the files (`initrd.gz`) was changed after computing the checksums.
+- IPFS: QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM
+- IPFS gateways: [localhost](http://localhost:8080/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM), [1](https://gateway.pinata.cloud/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM), [2](https://ninetailed.ninja/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM), [3](https://cloudflare-ipfs.com/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM), [4](https://ipfs.io/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM), [5](https://dweb.link/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM)
 
 ## Official site of Puppy Linux
 - http://puppylinux.com/
