@@ -1,6 +1,6 @@
 # Cryptopup
 
-Cryptopup is a live Linux distribution that fits on a CD (it's only 565MiB) but also can be burned on a DVD or recorded on a USB flash drive. It contains useful crypto tools: [Doubleslow](https://github.com/vstoykovbg/doubleslow), [Doublerandom](https://github.com/vstoykovbg/doublerandom), [RFC1751-encoding-decoding](https://github.com/vstoykovbg/RFC1751-encoding-decoding), [Mnemonic hashes](https://github.com/vstoykovbg/mnemonic-hashes), Electrum, Bitaddress, [BIP39 tool](https://github.com/iancoleman/bip39) and others.
+Cryptopup is a live Linux distribution that fits on a CD (it's only 539MiB) but also can be burned on a DVD or recorded on a USB flash drive. It contains useful crypto tools: [Doubleslow](https://github.com/vstoykovbg/doubleslow), [Doublerandom](https://github.com/vstoykovbg/doublerandom), [RFC1751-encoding-decoding](https://github.com/vstoykovbg/RFC1751-encoding-decoding), [Mnemonic hashes](https://github.com/vstoykovbg/mnemonic-hashes), Electrum, Bitaddress, [BIP39 tool](https://github.com/iancoleman/bip39) and others.
 
 When text mode is selected (with "do not copy in RAM") it requires very low RAM (assuming you will use frugal settings on Doubleslow). I tested it with 192MB RAM and Doubleslow was able to work with 64MiB RAM requirement for the first stage of hashing.
 
