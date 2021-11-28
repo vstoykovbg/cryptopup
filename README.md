@@ -4,6 +4,8 @@ Cryptopup is a live Linux distribution that fits on a CD (it's only 539MiB) but 
 
 When text mode is selected (with "do not copy in RAM") it requires very low RAM (assuming you will use frugal settings on Doubleslow). I tested it with 192MB RAM and Doubleslow was able to work with 64MiB RAM requirement for the first stage of hashing.
 
+For ideas how to use Cryptopup securely: [How Jason Bourne Stores His Bitcoin in 2021](https://github.com/vstoykovbg/jb)
+
 ![Cryptopup boot screen](images/cryptopup_11.png?raw=true "Cryptopup boot screen")
 
 In the following example it works with only 192MB RAM (in Linux console mode, selected as shown in the above screenshot).
@@ -80,6 +82,8 @@ On Cryptopup 12 I updated `doubleslow` and `Electrum`.
 - [Google Drive](https://drive.google.com/drive/folders/1O1AJU895hcuQkCiruNdlWn46rKB4WTOm?usp=sharing)
 - IPFS: QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM
 - IPFS gateways: [localhost](http://localhost:8080/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM), [1](https://gateway.pinata.cloud/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM), [2](https://ninetailed.ninja/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM), [3](https://cloudflare-ipfs.com/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM), [4](https://ipfs.io/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM), [5](https://dweb.link/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM)
+
+For ideas how to use Cryptopup securely: [How Jason Bourne Stores His Bitcoin in 2021](https://github.com/vstoykovbg/jb)
 
 ## Official site of Puppy Linux
 - http://puppylinux.com/
