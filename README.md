@@ -81,7 +81,12 @@ On Cryptopup 12 I updated `doubleslow` and `Electrum`.
 ## Download Cryptopup 12
 - [Google Drive](https://drive.google.com/drive/folders/1O1AJU895hcuQkCiruNdlWn46rKB4WTOm?usp=sharing)
 - IPFS: QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM
-- IPFS gateways: [localhost](http://localhost:8080/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM), [1](https://gateway.pinata.cloud/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM), [2](https://ninetailed.ninja/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM), [3](https://cloudflare-ipfs.com/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM), [4](https://ipfs.io/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM), [5](https://dweb.link/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM)
+- IPFS gateways: [localhost](http://localhost:8080/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM), [1](https://gateway.pinata.cloud/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM), [2](https://ninetailed.ninja/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM), [3](https://ipfs.io/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM), [4](https://dweb.link/ipfs/QmPxVVpRp1VhJLtuJQkpYT7KgNn8bbdKkBhA1pGydewmNM)
+- IPFS bafybeibbdvx33o6pukgspnkgge7z3izlj5x7ienko5uvwamokmt3fqw5ay [Fleek](https://bafybeibbdvx33o6pukgspnkgge7z3izlj5x7ienko5uvwamokmt3fqw5ay.ipfs.flk-ipfs.xyz/), [dweb](https://bafybeibbdvx33o6pukgspnkgge7z3izlj5x7ienko5uvwamokmt3fqw5ay.ipfs.dweb.link/)
+- Direct link to cryptopup_12-uefi.iso (bafybeib6eaaklnd4uco24o7exexjzyxi3u6d3jxshpvxceq3nnlh2ynw6m): [Fleek](https://flk-ipfs.xyz/ipfs/bafybeib6eaaklnd4uco24o7exexjzyxi3u6d3jxshpvxceq3nnlh2ynw6m?filename=cryptopup_12-uefi.iso), [dweb](https://dweb.link/ipfs/bafybeib6eaaklnd4uco24o7exexjzyxi3u6d3jxshpvxceq3nnlh2ynw6m?filename=cryptopup_12-uefi.iso)
+
+cryptopup_12-uefi.iso.sha512sum:
+`b755e5cd4f10ce1007930463b29c256de1fb831ac21d398b13c4857bb572932727038f2c5f67d51c9b38814c11132855aaaa40389b16ec3c2e292d4d7028df26  cryptopup_12-uefi.iso`
 
 For ideas how to use Cryptopup securely: [How Jason Bourne Stores His Bitcoin in 2021](https://github.com/vstoykovbg/jb)
 
